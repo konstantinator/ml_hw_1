@@ -155,6 +155,3 @@ def predict_items(items: List[Item]) -> List[float]:
     predictions = np.round(np.exp(pipeline.predict(items_df)), 2)
     return predictions
 
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
