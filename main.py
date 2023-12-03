@@ -10,11 +10,11 @@ import uvicorn
 
 print(preprocess_part_1, 222)
 
+app = FastAPI()
+
+
 with open('./pipeline.pkl', 'rb') as f:
     pipeline = pickle.load(f)
-
-
-app = FastAPI()
 
 
 class Item(BaseModel):
