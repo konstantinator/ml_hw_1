@@ -16,8 +16,8 @@
 Мл модель была завёрнута в веб сервис
 
 /predict_item
-![swagger](/Users/konstantin/Downloads/HSE Masters/1 year/dev_tools/hw/ml_hw_hse/img/0.png)
+![0](https://github.com/konstantinator/ml_hw_1/blob/main/img/0.png)
 
 /predict_items
-![swagger](/Users/konstantin/Downloads/HSE Masters/1 year/dev_tools/hw/ml_hw_hse/img/1.png)
+![1](https://github.com/konstantinator/ml_hw_1/blob/main/img/1.png)
 
