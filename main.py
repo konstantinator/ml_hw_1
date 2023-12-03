@@ -8,8 +8,9 @@ from typing import List
 from utils import *
 import uvicorn
 
+print(preprocess_part_1, 222)
 
-with open('pipeline.pkl', 'rb') as f:
+with open('./pipeline.pkl', 'rb') as f:
     pipeline = pickle.load(f)
 
 
